@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var user = User()
+    @State var showsheet = false
     
     var body: some View {
         VStack {
@@ -20,6 +21,15 @@ struct ContentView: View {
             TextField("Last Name", text: $user.lastName)
                 .padding()
             
+            Button("Show Sheet") {
+                showsheet.toggle()
+            }
+            .frame(width: 100, height: 40)
+            .background(Color.purple)
+            .foregroundColor(.white)
+        }
+        .sheet(isPresented: $showsheet) {
+            SecondView(name: "Senior Comrade")
         }
     }
 }
