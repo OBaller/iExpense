@@ -20,7 +20,7 @@ struct DeleteView: View {
                     }
                     .onDelete(perform: removeRows)
                 }
-
+                .listStyle(.grouped)
                 Button("Add Number") {
                     numbers.append(currentNumber)
                     currentNumber += 1
