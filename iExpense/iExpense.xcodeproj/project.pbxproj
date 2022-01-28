@@ -11,6 +11,7 @@
 		B422F71527A3FF23005FD730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F71427A3FF23005FD730 /* ContentView.swift */; };
 		B422F71727A3FF2C005FD730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B422F71627A3FF2C005FD730 /* Assets.xcassets */; };
 		B422F71A27A3FF2C005FD730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B422F71927A3FF2C005FD730 /* Preview Assets.xcassets */; };
+		B422F72127A4105B005FD730 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72027A41059005FD730 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B422F71427A3FF23005FD730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B422F71627A3FF2C005FD730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B422F71927A3FF2C005FD730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B422F72027A41059005FD730 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B422F71227A3FF23005FD730 /* iExpenseApp.swift */,
 				B422F71427A3FF23005FD730 /* ContentView.swift */,
+				B422F72027A41059005FD730 /* SecondView.swift */,
 				B422F71627A3FF2C005FD730 /* Assets.xcassets */,
 				B422F71827A3FF2C005FD730 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B422F72127A4105B005FD730 /* SecondView.swift in Sources */,
 				B422F71527A3FF23005FD730 /* ContentView.swift in Sources */,
 				B422F71327A3FF23005FD730 /* iExpenseApp.swift in Sources */,
 			);
