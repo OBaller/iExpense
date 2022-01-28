@@ -14,6 +14,7 @@
 		B422F72127A4105B005FD730 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72027A41059005FD730 /* SecondView.swift */; };
 		B422F72327A416EB005FD730 /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72227A416EB005FD730 /* DeleteView.swift */; };
 		B422F72527A43152005FD730 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72427A43151005FD730 /* UserDefaultsView.swift */; };
+		B422F72727A43A60005FD730 /* CodableArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72627A43A60005FD730 /* CodableArchive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B422F72027A41059005FD730 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		B422F72227A416EB005FD730 /* DeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteView.swift; sourceTree = "<group>"; };
 		B422F72427A43151005FD730 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
+		B422F72627A43A60005FD730 /* CodableArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableArchive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B422F72027A41059005FD730 /* SecondView.swift */,
 				B422F72227A416EB005FD730 /* DeleteView.swift */,
 				B422F72427A43151005FD730 /* UserDefaultsView.swift */,
+				B422F72627A43A60005FD730 /* CodableArchive.swift */,
 				B422F71627A3FF2C005FD730 /* Assets.xcassets */,
 				B422F71827A3FF2C005FD730 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				B422F72527A43152005FD730 /* UserDefaultsView.swift in Sources */,
 				B422F72127A4105B005FD730 /* SecondView.swift in Sources */,
 				B422F72327A416EB005FD730 /* DeleteView.swift in Sources */,
+				B422F72727A43A60005FD730 /* CodableArchive.swift in Sources */,
 				B422F71527A3FF23005FD730 /* ContentView.swift in Sources */,
 				B422F71327A3FF23005FD730 /* iExpenseApp.swift in Sources */,
 			);
