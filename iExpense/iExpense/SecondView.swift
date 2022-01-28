@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct SecondView: View {
+    @Environment (\.dismiss) var dismiss
     let name: String
     var body: some View {
-        Text("Hello fam: \(name)")
+        VStack {
+            Text("Hello fam: \(name)")
+            Button("Dismiss View") {
+                dismiss()
+            }
+        }
     }
 }
 
