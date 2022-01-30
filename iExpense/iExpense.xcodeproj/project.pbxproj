@@ -17,6 +17,8 @@
 		B422F72727A43A60005FD730 /* CodableArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72627A43A60005FD730 /* CodableArchive.swift */; };
 		B422F72927A447B4005FD730 /* ExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72827A447B3005FD730 /* ExpenseList.swift */; };
 		B422F72C27A4BBC4005FD730 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72B27A4BBC4005FD730 /* AddView.swift */; };
+		B422F72E27A72E41005FD730 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72D27A72E40005FD730 /* Expenses.swift */; };
+		B422F73027A72EC7005FD730 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422F72F27A72EC7005FD730 /* ExpenseItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		B422F72627A43A60005FD730 /* CodableArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableArchive.swift; sourceTree = "<group>"; };
 		B422F72827A447B3005FD730 /* ExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseList.swift; sourceTree = "<group>"; };
 		B422F72B27A4BBC4005FD730 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		B422F72D27A72E40005FD730 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		B422F72F27A72EC7005FD730 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			children = (
 				B422F72827A447B3005FD730 /* ExpenseList.swift */,
 				B422F72B27A4BBC4005FD730 /* AddView.swift */,
+				B422F72D27A72E40005FD730 /* Expenses.swift */,
+				B422F72F27A72EC7005FD730 /* ExpenseItem.swift */,
 			);
 			path = Iexp;
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 				B422F72927A447B4005FD730 /* ExpenseList.swift in Sources */,
 				B422F72C27A4BBC4005FD730 /* AddView.swift in Sources */,
 				B422F72727A43A60005FD730 /* CodableArchive.swift in Sources */,
+				B422F72E27A72E41005FD730 /* Expenses.swift in Sources */,
+				B422F73027A72EC7005FD730 /* ExpenseItem.swift in Sources */,
 				B422F71527A3FF23005FD730 /* ContentView.swift in Sources */,
 				B422F71327A3FF23005FD730 /* iExpenseApp.swift in Sources */,
 			);

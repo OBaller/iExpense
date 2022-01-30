@@ -14,7 +14,16 @@ struct ExpenseList: View {
         NavigationView {
             List {
                 ForEach(expenses.items) { item in
-                    Text(item.name)
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(item.name)
+                                .font(.headline)
+                            Text(item.type)
+                        }
+
+                        Spacer()
+                        Text(item.amount, format: .currency(code: "USD"))
+                    }
                 }
                 .onDelete(perform: removeItems)
             }
@@ -41,16 +50,4 @@ struct ExpenseList_Previews: PreviewProvider {
     static var previews: some View {
         ExpenseList()
     }
-}
-
-struct ExpenseItem: Identifiable {
-    let id = UUID()
-    let name: String
-    let type: String
-    let amount: Double
-}
-
-
-class Expenses: ObservableObject {
-    @Published var items = [ExpenseItem]()
 }
